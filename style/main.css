@@ -55,8 +55,8 @@ ul,li{
 .header__main__blocks__before:before {
     content: ' ';
     box-shadow: 0px 0px 4px 0.2px #000000;
-    width: 454px;
-    height: 68vh;
+    width: 634px;
+    height: 65vh;
     background: #bec1b9;
     position: absolute;
     z-index: 2;
@@ -67,8 +67,8 @@ ul,li{
 .header__main__blocks__after:before {
     content: ' ';
     box-shadow: 0px 0px 4px 0.2px #000000;
-    width: 454px;
-    height: 68vh;
+    width: 655px;
+    height: 66.5vh;
     background: #bec1b9;
     position: absolute;
     z-index: 3;
@@ -79,7 +79,7 @@ ul,li{
 .header__main__blocks {
     box-shadow: 0px 0px 4px 0.2px #000000;
     padding: 35px 30px 35px 13px;
-    width: 408px;
+    width: 610px;
     height: 61vh;
     background: #bec1b9;
     position: absolute;
@@ -136,8 +136,10 @@ ul,li{
 }
 
 .header__main__blocks__lang {
+    position: absolute;
     width: min-content;
     padding-left: 49px;
+    bottom: 19px;
 }
 
 .header__main__blocks__about__title{
@@ -199,7 +201,114 @@ ul,li{
     color: #0b0465;
 }
 
+/* section work */
 
+.section__work {
+    background: #5f615b;
+    padding-top: 4vh;
+    height: 96vh;
+}
+
+.section__work__title {
+    font-size: 30px;
+    padding-left: 9%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    position: relative;
+}
+
+.red__circle__before:before {
+    content: ' ';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #ff0000;
+    position: absolute;
+    left: 242px;
+    top: -5px;
+}
+
+.section__work__example {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.section__work__exmple{
+    font-size: 5em;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+
+
+/* section skil */
+
+.section__skilll__all__list{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .section__skill__all {
+    padding-top: 60px;
+    width: 82%;
+    margin: auto;
+}
+
+.section__skilll__all__list__item {
+    width: 39%;
+    background: #5f615b;
+    margin-top: 43px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 4%;
+}
+
+
+
+.scalit{
+    padding: 0;
+}
+
+.section__skill__all__list__item__rate__item{
+    height: 2px;
+    width: 16%;
+    background: red;
+}
+
+.section__skill__all__list__item__rate{
+    display: flex;
+    justify-content: space-between;
+    width:202px;
+    height: 2px;
+}
+
+.section__skill__all__list__item__text {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section__skill__all__list__item__rate__item__none{
+    background: #ffffff;
+}
+
+.section__skill {
+    padding: 4vh 0;
+    background: #444442;
+}
+
+.section__contact {
+    padding: 4vh 0;
+    background: #5f615b;
+}
 
 @media(max-width:1024px){
     .nav__list__item__link {
